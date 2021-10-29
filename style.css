@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    border-bottom: 2px solid purple;
+    background-color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 11vh;
+    background-color: #35424A;
+    
+}
+a{
+    margin: 15px;
+    font-size: 0.8rem;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    
+}
+a:hover{
+    color: purple;
+}
+span{
+    color: purple;
+}
+.header__p{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: white;
+    margin-left: 15px;
+}
+.intro{
+    background-image: url("./image/showcase.jpg");
+    background-size: cover;
+    background-position: center;
+    height:40vh;
+    /* text-align: center;    */
+    color: white;
+    line-height: 3rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+} 
+#subscribe p{
+    font-size: 1rem;
+    
+    
+}
+h1{
+    font-size: 2rem;    
+}
+.subscribe{
+    height:10vh;
+    background-color:#35424A ;
+    display:flex;
+    justify-content: space-between;
+   align-items: center;
+   font-family: Arial;
+}
+.subs{
+    margin-left: 15px;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.input{
+   text-align: center; 
+    width:30%;   
+}
+#submit{
+    line-height:0.7rem;
+    padding: 8px;
+    background-color: #e44d27;
+    color: white;
+    border:none;
+}
+#text{
+    line-height: 1.4rem;
+    width: 70%;
+}
+.section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height:27vh;
+    line-height:1.3rem;
+    font-family: Arial;
+}
+.image{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size:0.7rem;
+    padding: 8px;
+    
+}
+img{
+    width:15%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.footer{
+   height:13vh;
+    background-color:#35424A ;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    text-align: center;
+    padding-top: 10px;
+ 
+ 
+}
+.footer p{
+    color: white;
+    font-size:0.7rem;   
+}
+/* ABOUT PAGE STYLE */
+.section2{
+    height:65vh;
+    display: flex;
+    margin-top: 20px;
+
+}
+.about{
+    width:60%;
+    height:35vh;
+    margin: 15px;
+}
+#about_us{
+    font-weight: bold;
+    padding-left: 10px;
+
+}
+
+.light{
+   
+    font-size: 0.7rem;
+    padding:10px;
+}
+.dark_left{
+    background-color:#35424A ;
+    color: white;
+    font-size:0.7rem;
+    padding:10px;
+    height:15vh;
+}
+
+.what{
+    background-color:#35424A ;
+    width:35%;
+    height:20vh;
+    padding:10px;
+    color: white;  
+}
+.dark_right{
+    font-size:0.7rem;
+}
+
+
+/* // SERVICE PAGE STYLE// */
+
+.section3{
+    height:65vh;
+    display: flex;
+    justify-content:space-around;  
+    background-color:#edf1f1 ;
+
+}
+.services{
+    width:60%;
+    margin-top: 20px;
+    font-size: 0.7rem;
+}
+.Quote{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    border: 1px solid black;
+    width:30%;
+    height:34vh;
+    padding:10px;
+    background-color:#35424A ;
+    color: white;
+    font-size:0.7rem;
+    font-family: Arial;
+    line-height:1.1rem;
+
+}
+.Quote input{
+    width:90%;
+    font-size: 0.7rem;
+}
+#quote{
+    font-weight: bold;
+    margin: 10px 0 5px 0;
+}
+#quote_submit{
+    line-height:0.7rem;
+    padding: 8px;
+    background-color: #e44d27;
+    color: white;
+    border:none;
+    width:15%;
+    margin-top :10px;
+    
+
+}
+#textarea{
+    width:90%;
+}
+.box{
+    height:16vh;
+    background-color: #dde2e6;
+    padding: 10px;
+    margin: 10px;
+}
+.box p{
+    line-height:1.6rem;
+}
+h3{
+    font-weight: bolder;
+}
+#services{
+    margin-left: 15px;
+}
+
+
+
+@media screen and (max-width: 900px){
+    .input{
+        width:50%;
+    }
+    .intro p{
+        text-align: center;
+    }
+
+}
+@media screen and (max-width:540px) {
+    .header__p{
+         font-size:1rem;
+    }
+    h1{
+        font-size:1.5rem
+    }
+     .intro p {
+        font-size:0.8rem
+    } 
+    .subs{
+        font-size:0.8rem;
+    }
+    .input{
+        width:60%;
+        font-size: 0.7rem;
+    }
+    #text{
+        line-height:1rem;
+        width:55%;
+    }
+    #submit{
+        line-height:0.2rem;
+        font-size: 0.7rem;  
+
+    }
+
+}
+
+
+
+
